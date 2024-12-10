@@ -276,4 +276,4 @@ where "CREDIT_PURCHASE".purchase_at BETWEEN '2024-11-01' and '2024-11-30 23:59:5
 
 select count(distinct user_id) as "預約會員人數" from  "COURSE_BOOKING"
 where "COURSE_BOOKING".created_at BETWEEN '2024-11-01' AND '2024-11-30 23:59:59'
-and status = '即將授課';
+and status = '即將授課'; 
